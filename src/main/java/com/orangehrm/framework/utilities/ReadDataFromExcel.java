@@ -9,7 +9,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ReadDataFromExcel {
-	
+	//This method is used to read data from excel 
 	public static String[][] getExcelData(String filename , String sheetname){
 		
 		String[][] data = null;
